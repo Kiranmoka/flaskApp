@@ -6,7 +6,7 @@ api = Api(app)
 
 @app.route('/')
 def hello_name():
-   return "Hello world11......."
+   return "Hello world...."
 
 class HelloWorld(Resource):
     def get(self):
